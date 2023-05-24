@@ -1,0 +1,120 @@
+.empty-cart-container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.empty-cart-image {
+  width: 425px;
+  height: 367px;
+  text-align: center;
+}
+.empty-card-head {
+  color: #1e293b;
+  font-size: 32px;
+  font-weight: 500;
+}
+.empty-cart-para {
+  color: #64748b;
+}
+
+.empty-cart-btn {
+  width: 93px;
+  height: 32px;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #f7931e;
+  border: 0;
+}
+.payment-successful-container {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.payment-success-icon {
+  color: #22c55e;
+  font-size: 64px;
+}
+.payment-successful-head {
+  color: #1e293b;
+  font-size: 24px;
+  font-weight: 500;
+}
+.payment-successful-para {
+  font-family: 'DM Sans';
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.payment-successful-btn {
+  color: #ffffff;
+  background-color: #f7931e;
+  border: 0;
+  border-radius: 8px;
+  padding: 12px;
+}
+.cart-view-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-view {
+  background-color: #f9fbfe;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.cart-heads {
+  display: flex;
+  justify-content: space-around;
+}
+* {
+  font-family: 'DM Sans';
+  font-weight: 500;
+}
+.cart-nav-head {
+  color: #475569;
+  font-size: 20px;
+}
+.food-items-in-cart-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.bill-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.order-total-head {
+  color: #3e4c59;
+  font-size: 24px;
+}
+.total-order-value {
+  color: #3e4c59;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+.place-order-btn {
+  color: #ffffff;
+  background-color: #f7931e;
+  font-size: 12px;
+  padding: 10px;
+  border: 0;
+  border-radius: 8px;
+}
+.place-order-container {
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
